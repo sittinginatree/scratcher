@@ -62,7 +62,7 @@ bridge.addEventListener("touchmove", function(e) {
 document.onreadystatechange = function () {
 
     // check the value - if it's 'interactive' then the DOM has loaded
-    if (document.readyState === "interactive") {
+    if (document.readyState === "complete") {
         // add code here
         const gifttext = document.getElementById("gift").style.display = "block";
     }
