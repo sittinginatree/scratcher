@@ -56,7 +56,7 @@ bridge.addEventListener("touchmove", function(e) {
 }, false);
 
 
-
+/*
 // listen for changes to document.readyState - onreadystatechange is
 // fired when readyState value is changed
 document.onreadystatechange = function () {
@@ -67,3 +67,5 @@ document.onreadystatechange = function () {
         const gifttext = document.getElementById("gift").style.display = "block";
     }
 }
+
+*/
