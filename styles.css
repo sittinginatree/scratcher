@@ -72,6 +72,8 @@ transform: translate(-50%, -50%);
     display:none;
 }
 
+
+
 #prompt {
     position: fixed;
     top:70%;
