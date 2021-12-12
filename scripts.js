@@ -69,9 +69,6 @@ document.onreadystatechange = function () {
     // check the value - if it's 'interactive' then the DOM has loaded
     if (document.readyState === "interactive") {
         // add code here
-        function showgift() {
-         const gifttext = document.getElementById("gift");
-        gifttext.setAttribute('style','display:block');
-        }
+        const gifttext = document.getElementById("gift").style.display = "block";
     }
 }
