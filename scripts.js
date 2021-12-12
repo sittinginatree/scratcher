@@ -59,3 +59,19 @@ bridge.addEventListener("touchmove", function(e) {
         drawDot(brushPos.x, brushPos.y);
     }
 }, false);
+
+
+
+// listen for changes to document.readyState - onreadystatechange is
+// fired when readyState value is changed
+document.onreadystatechange = function () {
+
+    // check the value - if it's 'interactive' then the DOM has loaded
+    if (document.readyState === "interactive") {
+        // add code here
+        function showgift() {
+         const gifttext = document.getElementById("gift");
+        gifttext.setAttribute('style','display:block');
+        }
+    }
+}
